@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+create_gist_e2e,Firefox 60.0,,,2019-05-17 12:55:08,2019-05-17 12:56:05,"56,861s",FAILED
+,,,,,,,
+Test Cases/create_public_gists,Firefox 60.0,,,2019-05-17 12:55:08,2019-05-17 12:56:04,"55,482s",FAILED
+"callTestCase(findTestCase(""login_user""), [""url"":url, ""username"":findTestData(""user_credentials"").getValue(1, 1), ""password"":findTestData(""user_credentials"").getValue(2, 1)], STOP_ON_FAILURE)",Firefox 60.0,,,2019-05-17 12:55:08,2019-05-17 12:55:20,"11,935s",PASSED
+"click(findTestObject(""dropdown_button""))",Firefox 60.0,,,2019-05-17 12:55:20,2019-05-17 12:55:21,"0,253s",PASSED
+delay(3),Firefox 60.0,,,2019-05-17 12:55:21,2019-05-17 12:55:24,"3,003s",PASSED
+"click(findTestObject(""gists_menu""))",Firefox 60.0,,,2019-05-17 12:55:24,2019-05-17 12:55:27,"3,334s",PASSED
+"setText(findTestObject(""Object Repository/Page_Create a new Gist/input_See all of your gists_gistcontentsname""), findTestData(""gists_data"").getValue(1, 1))",Firefox 60.0,,,2019-05-17 12:55:27,2019-05-17 12:55:27,"0,070s",PASSED
+"click(findTestObject(""Object Repository/Page_Create a new Gist/pre_""))",Firefox 60.0,,,2019-05-17 12:55:27,2019-05-17 12:55:27,"0,249s",PASSED
+"setText(findTestObject(""Object Repository/Page_Create a new Gist/div_1input your gist here""), ""test shopee qa engineering"")",Firefox 60.0,,,2019-05-17 12:55:27,2019-05-17 12:55:27,"0,143s",PASSED
+"click(findTestObject(""Object Repository/Page_Create a new Gist/button_Create public gist""))",Firefox 60.0,,,2019-05-17 12:55:27,2019-05-17 12:55:30,"2,370s",PASSED
+delay(3),Firefox 60.0,,,2019-05-17 12:55:30,2019-05-17 12:55:33,"3,002s",PASSED
+"callTestCase(findTestCase(""edit_existing_gists""), [:], STOP_ON_FAILURE)",Firefox 60.0,,,2019-05-17 12:55:33,2019-05-17 12:56:04,"30,856s",FAILED

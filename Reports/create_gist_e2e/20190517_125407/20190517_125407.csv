@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+create_gist_e2e,,,,2019-05-17 12:54:09,2019-05-17 12:54:13,"3,826s",FAILED
+,,,,,,,
+Test Cases/create_public_gists,,,,2019-05-17 12:54:09,2019-05-17 12:54:13,"3,487s",FAILED
+"callTestCase(findTestCase(""login_user""), [""url"":url, ""username"":findTestData(""user_credentials"").getValue(1, 1), ""password"":findTestData(""user_credentials"").getValue(2, 1)], STOP_ON_FAILURE)",,,,2019-05-17 12:54:10,2019-05-17 12:54:13,"3,173s",FAILED
